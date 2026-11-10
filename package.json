@@ -1,6 +1,6 @@
 {
   "name": "@lockally/express",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Official Lockally middleware for Express — send transactional email via Lockally with req.lockally.send(...).",
   "license": "MIT",
   "type": "module",
@@ -20,7 +20,7 @@
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "lockally": "^0.1.0"
+    "lockally": "^0.3.0"
   },
   "peerDependencies": {
     "express": ">=4"
